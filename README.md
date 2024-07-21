@@ -35,13 +35,10 @@ M::Particle.render(M_Particle_System::prt_type::snow); // options { snow, rain, 
 	bool menu_particle = true;
 
 	if (menu_particle)
-		M::Particle.render(M_Particle_System::prt_type::ash);
-
+		M::Particle.render(M_Particle_System::prt_type::snow);
 
 	ImGui::SetNextWindowSize(ImVec2(500, 500));
 	ImGui::Begin("Example", nullptr, ImGuiWindowFlags_NoSavedSettings); {
-
 		ImGui::Checkbox("Particles", &menu_particle);
-
 	}ImGui::End();
 ```
