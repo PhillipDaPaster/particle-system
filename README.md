@@ -20,7 +20,7 @@ ImGui particle system based on Lak3's snow system from [SE-Owned](https://www.un
 ## Usage
 1. First you need to Include the particles.hpp
 ```cpp
-#include "Particles.h"
+#include "Particles.hpp"
 ```
 
 2. Call the Function
